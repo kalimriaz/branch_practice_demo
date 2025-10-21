@@ -1,0 +1,16 @@
+{
+  "name": "orangehrms-playwright-pom",
+  "version": "0.1.0",
+  "description": "Simple POM-based Playwright framework in TypeScript for OrangeHRMS demo",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "typescript": "^5.0.0"
+  }
+}
